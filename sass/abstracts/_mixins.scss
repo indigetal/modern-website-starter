@@ -1,0 +1,7 @@
+// MIXINS
+// This file contains mixins to write reusable pieces of CSS code
+
+@mixin style-link-text($color) {
+  text-decoration: none;
+  color: $color;
+}

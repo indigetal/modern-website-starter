@@ -1,0 +1,21 @@
+/**
+ * Base styles - Establishes foundational styles and global settings
+ * to ensure a consistent styling approach throughout the project.
+ * Part of the 7-1 Sass Architecture.
+ */
+*,
+*::before,
+*::after {
+  // Reset margin and padding for all elements
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // Set up box-sizing to include borders in width calculations
+  box-sizing: border-box;
+
+  // Define 1rem as 10px for easier calculations
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}

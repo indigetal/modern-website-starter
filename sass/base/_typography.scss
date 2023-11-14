@@ -1,0 +1,31 @@
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $color-primary-dark;
+}
+
+// A sass extend
+%heading {
+  font-family: $font-heading;
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extend %heading; // calling a sass extend
+  font-size: 4.5rem;
+  color: $color-primary-dark;
+  line-height: 1;
+}
+.heading-2 {
+  @extend %heading;
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+  &--light {
+    color: $color-primary-light;
+  }
+  &--dark {
+    color: $color-primary-dark;
+  }
+}

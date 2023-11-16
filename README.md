@@ -7,7 +7,7 @@ A modern website starter template emphasizing modularity, accessibility, and bes
 - [7-1 Architecture](#7-1-architecture)
 - [Features](#features)
 - [Project Setup Instructions](#project-setup-instructions)
-- [Build Process](#build-process)
+- [CSS Build Process](#css-build-process)
 - [Contributing](#contributing)
 - [License](#license)
 

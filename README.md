@@ -74,7 +74,6 @@ Below are the settings used in VS Code's settings.json file to configure the Liv
   "/.vscode/**"
 ],
 "liveSassCompile.settings.autoprefix": true
-}
 ```
 
 ### Compiling Sass 

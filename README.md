@@ -13,7 +13,7 @@ A modern website starter template emphasizing modularity, accessibility, and bes
 
 
 ## BEM (Block Element Modifier)
-BEM is a methodology that helps create reusable and maintainable components in web development. It promotes a clear naming convention by dividing the classes into Blocks, Elements, and Modifiers as `block--element__modifier` consecutively. This ensures a structured and organized CSS codebase.
+BEM is a methodology that helps create reusable and maintainable components in web development. It promotes a clear naming convention by dividing the classes into Blocks, Elements, and Modifiers as `block__element--modifier` consecutively. This ensures a structured and organized CSS codebase.
 
 
 ## 7-1 Architecture for Sass
